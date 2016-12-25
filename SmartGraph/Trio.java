@@ -1,4 +1,4 @@
-package hw7;
+package SmartGraph;
 
 //Private Helper class which holds a name of a building, and its location
 public class Trio {

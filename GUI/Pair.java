@@ -1,4 +1,4 @@
-package hw9;
+package GUI;
 
 //A tiny little class to hold two of the same element
 public class Pair<T> {

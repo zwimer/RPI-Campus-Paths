@@ -1,4 +1,4 @@
-package hw7;
+package SmartGraph;
 
 //Helper class which represents an edge between two locations
 public class Edge implements Comparable<Edge>{

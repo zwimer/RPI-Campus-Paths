@@ -1,4 +1,4 @@
-package hw9;
+package GUI;
 
 //A small little edge class
 public class SimpleEdge {

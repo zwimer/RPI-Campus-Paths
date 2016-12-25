@@ -1,7 +1,7 @@
-package hw7;
+package SmartGraph;
 
-import hw4.Graph;
-import hw9.Pair;
+import Graph.Graph;
+import GUI.Pair;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
