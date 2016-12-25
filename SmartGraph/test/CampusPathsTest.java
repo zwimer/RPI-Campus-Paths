@@ -47,9 +47,9 @@ public class CampusPathsTest { // Rename to the name of your "main" class
 	private void runTest(String filename) throws IOException {
 		InputStream in = System.in; 
 		PrintStream out = System.out;				
-		String inFilename = "SmartGraph/data/"+filename+".test"; // Input filename: [filename].test here  
-		String expectedFilename = "SmartGraph/data/"+filename+".expected"; // Expected result filename: [filename].expected
-		String outFilename = "SmartGraph/data/"+filename+".out"; // Output filename: [filename].out
+		String inFilename = "TestFiles/"+filename+".test"; // Input filename: [filename].test here  
+		String expectedFilename = "TestFiles/"+filename+".expected"; // Expected result filename: [filename].expected
+		String outFilename = "TestFiles/"+filename+".out"; // Output filename: [filename].out
 		BufferedInputStream is = new BufferedInputStream(new FileInputStream(inFilename));
 		System.setIn(is); // redirects standard input to a file, [filename].test 
 		PrintStream os = new PrintStream(new FileOutputStream(outFilename));
@@ -66,9 +66,9 @@ public class CampusPathsTest { // Rename to the name of your "main" class
 	private void runTestandFail(String filename) throws IOException {
 		InputStream in = System.in; 
 		PrintStream out = System.out;				
-		String inFilename = "SmartGraph/data/"+filename+".test"; // Input filename: [filename].test here  
-		String expectedFilename = "SmartGraph/data/"+filename+".expected"; // Expected result filename: [filename].expected
-		String outFilename = "SmartGraph/data/"+filename+".out"; // Output filename: [filename].out
+		String inFilename = "TestFiles/"+filename+".test"; // Input filename: [filename].test here  
+		String expectedFilename = "TestFiles/"+filename+".expected"; // Expected result filename: [filename].expected
+		String outFilename = "TestFiles/"+filename+".out"; // Output filename: [filename].out
 		BufferedInputStream is = new BufferedInputStream(new FileInputStream(inFilename));
 		System.setIn(is); // redirects standard input to a file, [filename].test 
 		PrintStream os = new PrintStream(new FileOutputStream(outFilename));

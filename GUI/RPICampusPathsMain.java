@@ -142,11 +142,11 @@ public class RPICampusPathsMain extends JFrame{
 		ArrayList<String> Buildings = new ArrayList<String>();
 		
 		//First load the nodes into the graph
-		try {m.readNodes("SmartGraph/data/RPI_map_data_Nodes.csv");} 
+		try {m.readNodes("MapInfo/RPI_map_data_Nodes.csv");} 
 		catch (IOException e) {e.printStackTrace();}
 
 		//Then load the edges into the graph
-		try {m.readEdges("SmartGraph/data/RPI_map_data_Edges.csv");} 
+		try {m.readEdges("MapInfo/RPI_map_data_Edges.csv");} 
 		catch (IOException e) {e.printStackTrace();}
 
 		//Note: the first call of output buildings builds
@@ -156,7 +156,7 @@ public class RPICampusPathsMain extends JFrame{
 		while(i.hasNext()) Buildings.add(i.next().getValue());
 		
 		//Run the GUI
-		try {TheInterface = new GUI("GUI/data/RPI_campus_map_2010_extra_nodes_edges.png", Buildings);}
+		try {TheInterface = new GUI("MapInfo/RPI_campus_map_2010_extra_nodes_edges.png", Buildings);}
 		catch (IOException e) {e.printStackTrace();}
 		
 		//Make m observable
