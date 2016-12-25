@@ -1,0 +1,19 @@
+First building id/name, followed by Enter: Second building id/name, followed by Enter: Path from 2144 Burdett Avenue to Sharp Hall:
+	Walk NorthWest to (Intersection 113)
+	Walk South to (Intersection 109)
+	Walk South to (Intersection 124)
+	Walk SouthWest to (Crockett Hall)
+	Walk SouthWest to (Intersection 123)
+	Walk South to (Davison Hall)
+	Walk SouthWest to (Sharp Hall)
+Total distance: 749.925 pixel units.
+First building id/name, followed by Enter: Second building id/name, followed by Enter: Path from Sharp Hall to 2144 Burdett Avenue:
+	Walk NorthEast to (Davison Hall)
+	Walk North to (Intersection 123)
+	Walk NorthEast to (Crockett Hall)
+	Walk NorthEast to (Intersection 124)
+	Walk North to (Intersection 109)
+	Walk North to (Intersection 113)
+	Walk SouthEast to (2144 Burdett Avenue)
+Total distance: 749.925 pixel units.
+TooLong
