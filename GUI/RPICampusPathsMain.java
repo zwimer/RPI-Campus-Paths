@@ -12,7 +12,8 @@ import java.util.Map;
 
 import javax.swing.JFrame;
 
-public class RPICampusPathsMain extends JFrame{
+//The 'main' class so to speak
+public class RPICampousPathsMain extends JFrame{
 
 	//Representation 
 	private static Model m = null;
@@ -128,6 +129,7 @@ public class RPICampusPathsMain extends JFrame{
 		IgnoreComboBoxListener = false;
 	}
 	
+	//Reset function
 	public static void reset() {
 		TheInterface.reset();
 	}
